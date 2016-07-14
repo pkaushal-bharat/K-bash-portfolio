@@ -1,10 +1,8 @@
-
+ $(document).ready(function(){
     $(window).load(function(){
-		$('#page-loader').delay(1000).fadeOut(1000);
-//                 $('#middle').display="none";
+		$('#page-loader').delay(500).fadeOut(1000);
 	});
-
-	
+});
 
 $(window).on('resize', function() {
   'use strict';
